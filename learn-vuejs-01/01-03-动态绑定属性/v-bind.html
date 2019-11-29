@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app">
+    <img v-bind:src="imageURL" alt="">
+    <img :src="imageURL" alt="">
+  </div>
+  
+  <script src="../js/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: "#app",
+      data: {
+        message: "",
+        imageURL: "https://www.francetvinfo.fr/image/750gysfxs-369f/1500/843/4194715.jpg"
+      }
+    })
+  </script>
+</body>
+</html>

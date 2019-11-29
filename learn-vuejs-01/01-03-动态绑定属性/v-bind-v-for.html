@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .highlight {
+      color: red;
+    }
+  </style>
+</head>
+<body>
+
+<div id="app">
+  <!--{{movies}}-->
+  <ul>
+    <li v-for="(movie, index) in movies"
+        :class="{highlight: currentIndex === index}"
+        v-on:click="liClick(index)">{{movie}}</li>
+  </ul>
+</div>
+
+<script src="../js/vue.js"></script>
+<script>
+  const app = new Vue({
+    el: "#app",
+    data: {
+      message: "你好啊",
+      movies: ["海王", "星际穿越", "大话西游", "少年派", "盗梦空间"],
+      currentIndex: -1
+    },
+    methods: {
+      liClick(index) {
+        this.currentIndex = index;
+      }
+    }
+  })
+</script>
+</body>
+</html>
