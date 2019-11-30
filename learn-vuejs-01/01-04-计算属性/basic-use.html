@@ -6,22 +6,25 @@
 </head>
 <body>
   <div id="app">
-    <h2 :style="getStyle()">{{message}}</h2>
+    <h2>{{firstName}} {{lastName}}</h2>
+    <h2>{{fullName}}</h2>
   </div>
-  
+
   <script src="../js/vue.js"></script>
   <script>
     const app = new Vue({
       el: "#app",
       data: {
-        message: "啦啦啦",
-        fontSize: 50,
-        finalColor: "red"
+        firstName: "Uglyservant",
+        lastName: "Su"
+      },
+      computed: {
+        fullName: function () {
+          return this.firstName + " " + this.lastName;
+        }
       },
       methods: {
-        getStyle: function () {
-          return {fontSize: this.fontSize + "px", backgroundColor: this.finalColor}
-        }
+
       }
     })
   </script>

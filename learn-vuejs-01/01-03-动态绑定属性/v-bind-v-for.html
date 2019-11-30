@@ -16,7 +16,7 @@
   <ul>
     <li v-for="(movie, index) in movies"
         :class="{highlight: currentIndex === index}"
-        v-on:click="liClick(index)">{{movie}}</li>
+        @click="liClick(index)">{{movie}}</li>
   </ul>
 </div>
 
