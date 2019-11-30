@@ -15,7 +15,7 @@
     <h2 :class="active"></h2>
     <h2 :class="{active: isActive, line: isLine}">{{message}}</h2>
     <h2 :class="getClasses()">{{message}}</h2>
-    <button v-on:click="btnClick">变色</button>
+    <button @click="btnClick">变色</button>
   </div>
   
   <script src="../js/vue.js"></script>
