@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app">
+    <!--.stop阻止冒泡 event.stopPropagation-->
+    <div @click="divClick">
+      div
+      <button @click.stop="btnClick">按钮</button>
+    </div>
+    </br>
+    
+    <!--.prevent阻止调用默认事件 event.preventDefault-->
+    <form action="bing">
+      <input type="submit" value="提交" @click.prevent="submitClick()"/>
+    </form>
+    
+    <!--.{keyCode | keyAlias} 只当事件是从特定键触发时才触发回调-->
+    <input type="text" @keyup.enter="keyUp"/>
+    <!--.native 监听组件根元素的原生事件（组件）-->
+    <!--.once 只触发一次回调-->
+    <button @click.once="btnClick">按钮2</button>
+  </div>
+  
+  <script src="../js/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: "#app",
+      data: {
+        message: "",
+      },
+      methods: {
+        divClick() {
+          console.log("divClick");
+        },
+        btnClick() {
+          console.log("btnClick");
+        },
+        submitClick() {
+          console.log("submitClick");
+        },
+        keyUp() {
+          console.log("keyUp");
+        }
+      }
+    })
+  </script>
+</body>
+</html>
