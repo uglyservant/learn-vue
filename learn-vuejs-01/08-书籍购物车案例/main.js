@@ -54,10 +54,14 @@ const app = new Vue({
       // }
       // return totalPrice;
 
-      for (let i in this.books) {
-        console.log(i);
-      }
-      return 0;
+      // let totalPrice = 0;
+      // for (let book of this.books) {
+      //   totalPrice += book.price * book.count;
+      // }
+      // return totalPrice;
+
+      return this.books
+          .reduce((preValue, book) => preValue + book.price * book.count, 0);
     }
   },
   filters: {
@@ -66,3 +70,24 @@ const app = new Vue({
     }
   }
 });
+
+// 编程范式：命令式编程/声明式编程
+// 编程方式：面向对象编程（第一公民：对象）/函数式编程（第一公民：函数）
+// filter/map/reduce
+
+const nums = [10, 20, 11, 222, 444, 40, 50];
+// filter中的回调函数有一个要求，就是必须返回一个boolean值
+// 当返回值为true时，函树内部会自动将这次回调的n加入到新的数组中
+// 当返回值为false时，函数内部会过滤掉这次的n
+
+// nums.filter(function (n) {
+//   return n < 100;
+// }).map(function (n) {
+//   return n * 2;
+// }).reduce(function (preValue, n) {
+//   return preValue + n;
+// }, 0);
+
+nums.filter((n) => {return n < 100})
+    .map((n) => {return n * 2})
+    .reduce((preValue, n) => {return preValue + n}, 0);
