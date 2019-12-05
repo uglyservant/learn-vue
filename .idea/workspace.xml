@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7704eb2d-cde6-4695-a5b3-4bb94a58de8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/learn-vue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/08-书籍购物车案例/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn-vuejs-01/08-书籍购物车案例/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/01-v-model-基本使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/02-v-model的原理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/03-v-model-结合radio.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/04-v-model-结合checkbox.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/05-v-model-结合select.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/06-v-model-修饰符使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,10 +32,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -36,6 +44,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\uglys\WebstormProjects\learn-vue\learn-vuejs-01\09-v-model使用" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -59,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575347709525</updated>
-      <workItem from="1575347710745" duration="5842000" />
+      <workItem from="1575347710745" duration="12875000" />
     </task>
     <servers />
   </component>
@@ -71,5 +84,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575347992719" />
+    <state x="1089" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1575453854654">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="1089" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1575453854654" />
   </component>
 </project>
