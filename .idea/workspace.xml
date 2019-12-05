@@ -2,13 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7704eb2d-cde6-4695-a5b3-4bb94a58de8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/learn-vue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/08-书籍购物车案例/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/learn-vuejs-01/08-书籍购物车案例/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/.idea/dictionaries/uglys.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/.idea/learn-vuejs-01.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/learn-vuejs-01/.idea/vcs.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -60,6 +63,7 @@
       <option name="presentableId" value="Default" />
       <updated>1575347709525</updated>
       <workItem from="1575347710745" duration="5842000" />
+      <workItem from="1575375016746" duration="660000" />
     </task>
     <servers />
   </component>
