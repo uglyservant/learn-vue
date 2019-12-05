@@ -16,6 +16,7 @@
       <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/05-组件模板的分离写法.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/06-组件中的数据存放问题.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/07-组件中的data为什么时函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +35,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -69,7 +71,7 @@
       <updated>1575347709525</updated>
       <workItem from="1575347710745" duration="5842000" />
       <workItem from="1575375016746" duration="660000" />
-      <workItem from="1575547716167" duration="18000" />
+      <workItem from="1575547716167" duration="356000" />
     </task>
     <servers />
   </component>
