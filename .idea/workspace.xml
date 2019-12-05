@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7704eb2d-cde6-4695-a5b3-4bb94a58de8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/01-v-model-基本使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/02-v-model的原理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/03-v-model-结合radio.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/04-v-model-结合checkbox.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/05-v-model-结合select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用/06-v-model-修饰符使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/01-组件化的使用.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/02-全局组件和局部组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/03-父组件和子组件.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -72,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575347709525</updated>
-      <workItem from="1575347710745" duration="12875000" />
+      <workItem from="1575347710745" duration="18811000" />
     </task>
     <servers />
   </component>
@@ -80,10 +77,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="461" y="181" key="SettingsEditor" timestamp="1575347992719">
+    <state x="461" y="181" key="SettingsEditor" timestamp="1575526825747">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575347992719" />
+    <state x="461" y="181" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1575526825747" />
     <state x="1089" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1575453854654">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
