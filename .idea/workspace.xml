@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7704eb2d-cde6-4695-a5b3-4bb94a58de8a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/01-组件化的使用.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/02-全局组件和局部组件.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/03-父组件和子组件.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/04-组件的语法糖注册.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发/05-组件模板的分离写法.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,7 +32,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn-vuejs-01/09-v-model使用" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/learn-vuejs-01/10-组件化开发" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -44,6 +43,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\uglys\WebstormProjects\learn-vue\learn-vuejs-01\10-组件化开发" />
       <recent name="C:\Users\uglys\WebstormProjects\learn-vue\learn-vuejs-01\09-v-model使用" />
     </key>
   </component>
@@ -69,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575347709525</updated>
-      <workItem from="1575347710745" duration="18811000" />
+      <workItem from="1575347710745" duration="21020000" />
     </task>
     <servers />
   </component>
