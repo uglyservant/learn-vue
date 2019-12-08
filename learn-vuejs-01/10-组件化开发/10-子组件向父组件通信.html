@@ -5,58 +5,50 @@
   <title>Title</title>
 </head>
 <body>
+ <!--父组件模板-->
  <div id="app">
-   <cpn :c-movies="movies" :c-message="message"></cpn>
+   <cpn @item-click="cpnClick"></cpn>
  </div>
 
+ <!--子组件模板-->
  <template id="cpn">
    <div>
-     <p>{{cMovies}}</p>
-     <h2>{{cMessage}}</h2>
+     <button v-for="item in categories" @click="btnClick(item)">{{item.name}}</button>
    </div>
  </template>
  <script src="../js/vue.js"></script>
  <script>
-   // 父传子
    const cpn = {
      template: "#cpn",
-     // props: ["cMovies", "cMessage"],
-     props: {
-       // 1.类型限制
-       // cMovies: Array,
-       // cMessage: String
-
-       // 2.提供一些默认值，以及必传值
-       cMessage: {
-         type: String,
-         default: "default value",
-         required: true
-       },
-
-       // 类型是对象或数组时，默认值必须是一个函数
-       cMovies: {
-         type: Array,
-         default() {
-           return [];
-         }
+     data() {
+       return {
+         categories: [
+           {id: 0, name: "手机"},
+           {id: 1, name: "电脑"},
+           {id: 2, name: "零食"},
+           {id: 3, name: "清洁"}
+         ]
        }
      },
-     data() {
-       return {}
-     },
      methods: {
-
+       btnClick(item) {
+         // console.log(item);
+         // 发射信号给父组件: 自定义事件
+         this.$emit("item-click", item);
+       }
      }
    };
 
    const app = new Vue({
      el: "#app",
-     data: {
-       message: "message",
-       movies: ["A", "B", "C", "D", "E"]
-     },
+     data: {},
      components: {
        cpn
+     },
+     methods: {
+       cpnClick(item) {
+         console.log(item);
+       }
      }
    })
  </script>
