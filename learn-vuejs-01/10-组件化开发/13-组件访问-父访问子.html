@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+  <div id="app">
+    <cpn></cpn>
+    <cpn></cpn>
+    <cpn ref="third"></cpn>
+    <button @click="btnClick">按钮</button>
+  </div>
+
+  <template id="cpn">
+    <div>I'm children!</div>
+  </template>
+  <script src="../js/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: "#app",
+      data: {},
+      methods: {
+        btnClick() {
+          // 子组件数组
+          console.log(this.$children);
+          console.log(this.$refs);
+        }
+      },
+      components: {
+        cpn: {
+          template: "#cpn",
+          methods: {
+            showMessage() {
+              console.log("Hello, world");
+            }
+          }
+        }
+      }
+    })
+  </script>
+</body>
+</html>
