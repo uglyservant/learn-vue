@@ -9,3 +9,5 @@ out
 gen
 /learn-vuejs-02/01-webpack的起步/dist/
 /learn-vuejs-02/02-webpack的的配置/dist/
+/learn-vuejs-02/03-webpack的loader/dist/
+/learn-vuejs-02/03-webpack的loader/node_modules/
