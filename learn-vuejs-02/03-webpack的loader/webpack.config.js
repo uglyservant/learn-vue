@@ -9,10 +9,19 @@ module.exports = {
   },
   module: {
     rules: [
+      // webpack CSS 打包
       {
         test: /\.css$/,
-        // 顺序重要，从右向左
+        // 顺序重要，从右向左读取
         use: ["style-loader", "css-loader"]
+      },
+      // {
+      //   test: /\.less$/,
+      //   use: [{loader: "style-loader"}, {loader: "css-loader"}, {loader: "less-loader"}]
+      // },
+      {
+        test: /\.(png|jpg|gif|jpeg)$/,
+        use: [{loader: "url-loader", options: {limit: 8192}}]
       }
     ]
   }
