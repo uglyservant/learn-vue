@@ -2,6 +2,7 @@
   <div id="app">
     <h2>{{message}}</h2>
     <h2>{{$store.state.counter}}</h2>
+    <h2>{{more20Stu}}</h2>
     <button @click="addition">+</button>
     <button @click="subtraction">-</button>
     <hello-vuex/>
@@ -16,6 +17,11 @@
     data() {
       return {
         message: "我是App组件",
+      }
+    },
+    computed: {
+      more20Stu() {
+        return this.$store.state.students.filter((student) => student.age > 20);
       }
     },
     methods: {
