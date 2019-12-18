@@ -1,5 +1,7 @@
 import Vue from "vue"
 import Vuex from "vuex"
+import {INCREMENT} from "./mutations-types";
+import {DECREMENT} from "./mutations-types";
 
 // 1.安装插件
 Vue.use(Vuex);
@@ -16,15 +18,22 @@ const store = new Vuex.Store({
     ]
   },
   mutations: {
-    increment(state) {
+    [INCREMENT](state) {
       state.counter++;
     },
-    decrement(state) {
+    [DECREMENT](state) {
       state.counter--;
+    },
+    updateInfo(state) {
+      state.counter = 1;
     }
   },
   actions: {
-
+    aUpdateInfo(context, payload) {
+      setTimeout(() => {
+        context.commit("updateInfo");
+      }, 1000)
+    }
   },
   getters: {
     powerCounter(state) {

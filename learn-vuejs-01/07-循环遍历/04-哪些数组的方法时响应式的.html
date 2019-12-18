@@ -36,6 +36,8 @@
          this.letters.sort();
          // 7. reverse
          this.letters.reverse();
+         // 8. set
+         Vue.set(this.letters, 0, "bbbb");
          
          // *********非响应式的*******
          // 1. 通过索引值修改数组中的元素
